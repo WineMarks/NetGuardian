@@ -1,0 +1,85 @@
+{
+  "accuracy": 0.940625,
+  "precision_macro": 0.6766002697375246,
+  "recall_macro": 0.876365663322185,
+  "f1_macro": 0.7170599383902657,
+  "precision_weighted": 0.9757739554154995,
+  "recall_weighted": 0.940625,
+  "f1_weighted": 0.9550136469393529,
+  "mean_confidence": 0.9654696648569636,
+  "classification_report": {
+    "BENIGN": {
+      "precision": 1.0,
+      "recall": 0.9307692307692308,
+      "f1-score": 0.9641434262948207,
+      "support": 260.0
+    },
+    "DDoS": {
+      "precision": 0.9047619047619048,
+      "recall": 1.0,
+      "f1-score": 0.95,
+      "support": 19.0
+    },
+    "DoS GoldenEye": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 1.0
+    },
+    "DoS Hulk": {
+      "precision": 0.8235294117647058,
+      "recall": 1.0,
+      "f1-score": 0.9032258064516129,
+      "support": 14.0
+    },
+    "DoS Slowhttptest": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 0.0
+    },
+    "DoS slowloris": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 0.0
+    },
+    "FTP-Patator": {
+      "precision": 0.3333333333333333,
+      "recall": 1.0,
+      "f1-score": 0.5,
+      "support": 1.0
+    },
+    "PortScan": {
+      "precision": 0.9166666666666666,
+      "recall": 0.9565217391304348,
+      "f1-score": 0.9361702127659575,
+      "support": 23.0
+    },
+    "SSH-Patator": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 1.0
+    },
+    "Web Attack Brute Force": {
+      "precision": 0.1111111111111111,
+      "recall": 1.0,
+      "f1-score": 0.2,
+      "support": 1.0
+    },
+    "accuracy": 0.940625,
+    "macro avg": {
+      "precision": 0.6089402427637721,
+      "recall": 0.7887290969899665,
+      "f1-score": 0.6453539445512392,
+      "support": 320.0
+    },
+    "weighted avg": {
+      "precision": 0.9757739554154995,
+      "recall": 0.940625,
+      "f1-score": 0.9550136469393529,
+      "support": 320.0
+    }
+  }
+}

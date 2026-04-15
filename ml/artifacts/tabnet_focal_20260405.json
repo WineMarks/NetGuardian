@@ -1,0 +1,99 @@
+{
+  "model_type": "tabnet",
+  "imbalance_strategy": "focal",
+  "accuracy": 0.300625,
+  "precision_macro": 0.2270371527621036,
+  "recall_macro": 0.665626554465973,
+  "f1_macro": 0.20025098014674803,
+  "precision_weighted": 0.910371056475774,
+  "recall_weighted": 0.300625,
+  "f1_weighted": 0.3775104944245042,
+  "mean_confidence": 0.7841359972953796,
+  "classification_report": {
+    "BENIGN": {
+      "precision": 1.0,
+      "recall": 0.2025586353944563,
+      "f1-score": 0.33687943262411346,
+      "support": 6566.0
+    },
+    "Bot": {
+      "precision": 0.008395522388059701,
+      "recall": 1.0,
+      "f1-score": 0.016651248843663275,
+      "support": 9.0
+    },
+    "DDoS": {
+      "precision": 0.42265426880811496,
+      "recall": 0.9861932938856016,
+      "f1-score": 0.591715976331361,
+      "support": 507.0
+    },
+    "DoS GoldenEye": {
+      "precision": 0.0070126227208976155,
+      "recall": 0.9375,
+      "f1-score": 0.013921113689095127,
+      "support": 16.0
+    },
+    "DoS Hulk": {
+      "precision": 0.5346756152125279,
+      "recall": 0.7492163009404389,
+      "f1-score": 0.6240208877284595,
+      "support": 319.0
+    },
+    "DoS Slowhttptest": {
+      "precision": 0.037037037037037035,
+      "recall": 1.0,
+      "f1-score": 0.07142857142857142,
+      "support": 7.0
+    },
+    "DoS slowloris": {
+      "precision": 0.02531645569620253,
+      "recall": 0.8571428571428571,
+      "f1-score": 0.04918032786885246,
+      "support": 7.0
+    },
+    "FTP-Patator": {
+      "precision": 0.047058823529411764,
+      "recall": 0.4444444444444444,
+      "f1-score": 0.0851063829787234,
+      "support": 18.0
+    },
+    "PortScan": {
+      "precision": 0.6236323851203501,
+      "recall": 0.5377358490566038,
+      "f1-score": 0.5775075987841946,
+      "support": 530.0
+    },
+    "SSH-Patator": {
+      "precision": 0.008595988538681949,
+      "recall": 0.2727272727272727,
+      "f1-score": 0.016666666666666666,
+      "support": 11.0
+    },
+    "Web Attack Brute Force": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 7.0
+    },
+    "Web Attack XSS": {
+      "precision": 0.010067114093959731,
+      "recall": 1.0,
+      "f1-score": 0.019933554817275746,
+      "support": 3.0
+    },
+    "accuracy": 0.300625,
+    "macro avg": {
+      "precision": 0.2270371527621036,
+      "recall": 0.665626554465973,
+      "f1-score": 0.20025098014674803,
+      "support": 8000.0
+    },
+    "weighted avg": {
+      "precision": 0.910371056475774,
+      "recall": 0.300625,
+      "f1-score": 0.3775104944245042,
+      "support": 8000.0
+    }
+  }
+}

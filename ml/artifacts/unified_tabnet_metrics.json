@@ -1,0 +1,79 @@
+{
+  "accuracy": 0.8385416666666666,
+  "precision_macro": 0.1216931216931217,
+  "recall_macro": 0.14285714285714285,
+  "f1_macro": 0.13142857142857142,
+  "precision_weighted": 0.7143132716049383,
+  "recall_weighted": 0.8385416666666666,
+  "f1_weighted": 0.7714583333333334,
+  "mean_confidence": 0.8647830486297607,
+  "classification_report": {
+    "BENIGN": {
+      "precision": 0.8518518518518519,
+      "recall": 1.0,
+      "f1-score": 0.92,
+      "support": 161.0
+    },
+    "Bot": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 1.0
+    },
+    "DDoS": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 7.0
+    },
+    "DoS GoldenEye": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 2.0
+    },
+    "DoS Hulk": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 11.0
+    },
+    "FTP-Patator": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 0.0
+    },
+    "PortScan": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 9.0
+    },
+    "SSH-Patator": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 0.0
+    },
+    "Web Attack Brute Force": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 1.0
+    },
+    "accuracy": 0.8385416666666666,
+    "macro avg": {
+      "precision": 0.09465020576131687,
+      "recall": 0.1111111111111111,
+      "f1-score": 0.10222222222222223,
+      "support": 192.0
+    },
+    "weighted avg": {
+      "precision": 0.7143132716049383,
+      "recall": 0.8385416666666666,
+      "f1-score": 0.7714583333333334,
+      "support": 192.0
+    }
+  }
+}

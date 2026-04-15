@@ -1,0 +1,99 @@
+{
+  "model_type": "tabnet",
+  "imbalance_strategy": "class_weight",
+  "accuracy": 0.773875,
+  "precision_macro": 0.25073539334810785,
+  "recall_macro": 0.5466951090548856,
+  "f1_macro": 0.2734922616003596,
+  "precision_weighted": 0.8682612049713663,
+  "recall_weighted": 0.773875,
+  "f1_weighted": 0.8070084587523714,
+  "mean_confidence": 0.9161942005157471,
+  "classification_report": {
+    "BENIGN": {
+      "precision": 0.9583783783783784,
+      "recall": 0.8100822418519646,
+      "f1-score": 0.8780125453945197,
+      "support": 6566.0
+    },
+    "Bot": {
+      "precision": 0.018666666666666668,
+      "recall": 0.7777777777777778,
+      "f1-score": 0.036458333333333336,
+      "support": 9.0
+    },
+    "DDoS": {
+      "precision": 0.6277915632754343,
+      "recall": 0.9980276134122288,
+      "f1-score": 0.7707539984767707,
+      "support": 507.0
+    },
+    "DoS GoldenEye": {
+      "precision": 0.13541666666666666,
+      "recall": 0.8125,
+      "f1-score": 0.23214285714285715,
+      "support": 16.0
+    },
+    "DoS Hulk": {
+      "precision": 0.713302752293578,
+      "recall": 0.9749216300940439,
+      "f1-score": 0.823841059602649,
+      "support": 319.0
+    },
+    "DoS Slowhttptest": {
+      "precision": 0.04040404040404041,
+      "recall": 0.5714285714285714,
+      "f1-score": 0.07547169811320754,
+      "support": 7.0
+    },
+    "DoS slowloris": {
+      "precision": 0.023715415019762844,
+      "recall": 0.8571428571428571,
+      "f1-score": 0.046153846153846156,
+      "support": 7.0
+    },
+    "FTP-Patator": {
+      "precision": 0.2962962962962963,
+      "recall": 0.4444444444444444,
+      "f1-score": 0.35555555555555557,
+      "support": 18.0
+    },
+    "PortScan": {
+      "precision": 0.1875,
+      "recall": 0.02830188679245283,
+      "f1-score": 0.04918032786885246,
+      "support": 530.0
+    },
+    "SSH-Patator": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 11.0
+    },
+    "Web Attack Brute Force": {
+      "precision": 0.007352941176470588,
+      "recall": 0.2857142857142857,
+      "f1-score": 0.014336917562724014,
+      "support": 7.0
+    },
+    "Web Attack XSS": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 3.0
+    },
+    "accuracy": 0.773875,
+    "macro avg": {
+      "precision": 0.25073539334810785,
+      "recall": 0.5466951090548856,
+      "f1-score": 0.2734922616003596,
+      "support": 8000.0
+    },
+    "weighted avg": {
+      "precision": 0.8682612049713663,
+      "recall": 0.773875,
+      "f1-score": 0.8070084587523714,
+      "support": 8000.0
+    }
+  }
+}
